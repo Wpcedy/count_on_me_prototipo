@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Count On Me</string>
+    <string name="login">Login</string>
+    <string name="tema_um">Depressão</string>
+    <string name="tema_dois">Ansiedade</string>
+    <string name="tema_tres">Bulimia</string>
+    <string name="criar_conta">criar uma nova conta</string>
+    <string name="esqueci_senha">esqueci minha senha</string>
+    <string name="email">Email</string>
+    <string name="email_cadastro">Email:</string>
+    <string name="senha">Senha</string>
+    <string name="senha_cadastro">Senha:</string>
+    <string name="send">Enviar</string>
+    <string name="telefone_emergencia">Telefone Emergencial:</string>
+    <string name="telefone">Telefone:</string>
+    <string name="data_nascimento">Data de Nascimento:</string>
+    <string name="idade">Idade:</string>
+    <string name="criar">Criar</string>
+</resources>

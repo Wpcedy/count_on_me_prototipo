@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC2CEFB">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/head"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="13dp"
+            android:layout_weight="0.53" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="73dp"
+            android:layout_marginLeft="25dp"
+            android:text="Cadastre-se"
+            android:textColor="#FF01579B"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="17dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Nome:"
+                android:textColor="#060000"
+                android:textSize="21dp" />
+
+            <View
+                android:layout_width="9dp"
+                android:layout_height="1dp" />
+
+            <EditText
+                android:id="@+id/nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sexo:"
+                android:textColor="#060000"
+                android:textSize="21dp" />
+
+            <View
+                android:layout_width="9dp"
+                android:layout_height="1dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:textSize="13dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Idade:"
+                android:textColor="#060000"
+                android:textSize="21dp" />
+
+            <View
+                android:layout_width="9dp"
+                android:layout_height="1dp" />
+
+            <EditText
+                android:layout_width="99dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data de Nascimento:"
+                android:textColor="#060000"
+                android:textSize="21dp" />
+
+            <View
+                android:layout_width="9dp"
+                android:layout_height="1dp" />
+
+            <EditText
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:hint="      /     /   " />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefone:"
+                android:textColor="#060000"
+                android:textSize="21dp" />
+
+            <View
+                android:layout_width="9dp"
+                android:layout_height="1dp" />
+
+            <EditText
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:hint="(  )" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefone Emergencial:"
+                android:textColor="#060000"
+                android:textSize="21dp" />
+
+            <View
+                android:layout_width="9dp"
+                android:layout_height="1dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="(  )" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Email:"
+                android:textColor="#060000"
+                android:textSize="21dp" />
+
+            <View
+                android:layout_width="9dp"
+                android:layout_height="1dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Senha"
+                android:textColor="#060000"
+                android:textSize="21dp" />
+
+            <View
+                android:layout_width="9dp"
+                android:layout_height="1dp" />
+
+            <EditText
+                android:id="@+id/senha"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="1dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corners_2"
+                android:onClick="criarUsuario"
+                android:text="@string/criar" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

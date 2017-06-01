@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="32dp"
+    android:gravity="center_horizontal"
+    tools:context="com.si_impacta.countonme.MainActivity">
+
+    <Button
+        android:id="@+id/btn_depressao"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/corners_1"
+        android:text="@string/tema_um"
+        android:onClick="Chat"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:background="@drawable/corners_2"
+        android:text="@string/tema_dois"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/corners_1"
+        android:text="@string/tema_tres"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
